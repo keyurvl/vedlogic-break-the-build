@@ -1,5 +1,6 @@
 # Vedlogic QA Automation Engineering Challenge - Starter Project
 
+
 This repository is an intentionally imperfect starter framework for a Selenium + Java + Cucumber + Maven + ReqRes challenge.
 
 The purpose of this assessment is not only to verify that the test cases run, but also to evaluate how the candidate designs, structures, and implements a maintainable automation framework.
