@@ -1,4 +1,4 @@
-package AutomationTest.vedlogic.base;
+package AutomationTest.vedlogic.utils;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,6 +1,6 @@
 package AutomationTest.vedlogic;
 
-import AutomationTest.vedlogic.base.DriverManager;
+import AutomationTest.vedlogic.utils.DriverManager;
 import AutomationTest.vedlogic.config.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

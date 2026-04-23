@@ -1,6 +1,6 @@
 package AutomationTest.vedlogic.stepdefinitions;
 
-import AutomationTest.vedlogic.base.DriverManager;
+import AutomationTest.vedlogic.utils.DriverManager;
 import AutomationTest.vedlogic.config.ConfigReader;
 import AutomationTest.vedlogic.pages.CartPage;
 import AutomationTest.vedlogic.pages.CheckoutPage;
