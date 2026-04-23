@@ -23,7 +23,7 @@ public class APISteps {
 
     @Then("the response should contain first name {string}")
     public void theResponseShouldContainFirstName(String firstName) {
-        Assert.assertEquals(response.jsonPath().getString("data.first_name"), firstName);
+        Assert.assertEquals(response.getString("data.first_name"), firstName);
     }
 
     @When("the user creates a new ReqRes user with name {string} and job {string}")
@@ -33,6 +33,6 @@ public class APISteps {
 
     @Then("the created response should contain name {string}")
     public void theCreatedResponseShouldContainName(String name) {
-        Assert.assertEquals(response.jsonPath().getString("data.name"), name);
+        Assert.assertEquals(response.getString("data.name"), name);
     }
 }
